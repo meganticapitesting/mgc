@@ -6,8 +6,9 @@
     },
     "type": "magento2-megantic-module",
     "license": [
-        "MIT"
+        "Megantic"
     ],
+    "minimum-stability": "stable",
     "autoload": {
         "files": [
             "registration.php"
@@ -16,5 +17,5 @@
             "Megantic\\Mgc\\": ""
         }
     },
-    "version": "1.0.1"
+    "version": "1.0-rc3"
 }
