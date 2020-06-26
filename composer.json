@@ -1,0 +1,20 @@
+{
+    "name": "megantic/mgc",
+    "description": "N/A",
+    "config": {
+        "sort-packages": true
+    },
+    "type": "magento2-megantic-module",
+    "license": [
+        "Megantic"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Megantic\\Mgc\\": ""
+        }
+    },
+    "version": "0.0.1"
+}
