@@ -10,7 +10,7 @@
 
 namespace Megantic\Mgc\Model\Item\Source;
 
-use Megantic\Mgc\Model\Item
+use Megantic\Mgc\Model\Item;
 
 /**
  * IsActive
@@ -30,9 +30,7 @@ class IsActive implements \Magento\Framework\Data\OptionSourceInterface
      *
      * @param \Megantic\Mgc\Model\Item $item
      */
-    public function __construct(
-        Item $item
-    ) {
+    public function __construct(Item $item) {
         $this->item = $item;
     }
 
