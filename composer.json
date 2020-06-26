@@ -6,7 +6,7 @@
     },
     "type": "magento2-megantic-module",
     "license": [
-        "Megantic"
+        "MIT"
     ],
     "autoload": {
         "files": [
