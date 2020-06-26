@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Megantic_Mgc::Mgc" title="Mgcs" module="Megantic_Mgc" sortOrder="40" parent="Magento_Catalog::inventory" action="Mgc/manage" resource="Megantic_Mgc::Mgc"/>
+    </menu>
+</config>
